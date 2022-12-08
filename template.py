@@ -1,2 +1,2 @@
-def solution(input):
+def solution(input: str):
   return input

@@ -1,4 +1,4 @@
-def solution(input):
+def solution(input: str):
   presents = input.split('\n')
   totalWrap = 0
   for present in presents:

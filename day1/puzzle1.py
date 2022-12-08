@@ -1,4 +1,4 @@
-def solution(input):
+def solution(input: str):
   floor = 0
   for char in input:
     if (char == '('): floor += 1

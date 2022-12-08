@@ -1,4 +1,4 @@
-def solution(input):
+def solution(input: str):
   presents = input.split('\n')
   totalRibbon = 0
   for present in presents:
