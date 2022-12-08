@@ -1,5 +1,6 @@
 def solution(input: str):
   floor = 0
+  index = 0
   for index in range(len(input)):
     char = input[index]
     if (char == '('): floor += 1
